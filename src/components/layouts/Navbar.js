@@ -17,16 +17,17 @@ function Navbar() {
                 </form> 
                </div>
                <div className="col-md-3">
-               <div className="item d-flex">
-               
+               <div className="icon">
                   <Link className="nav-link" aria-current="page" to="">Wish List<i class="bi bi-heart-fill mx-2"></i></Link>
                   <Link className="nav-link"  aria-current="page" to="">Cart<i class="bi bi-cart-fill mx-2" ></i></Link>
                   <Link className="nav-link"  aria-current="page" to=""><i class="bi bi-people-fill mx-2"></i></Link>
                
+                    <i class="bi bi-cart-fill mx-2" ></i>
                 </div>
                </div>
           </div>
           </div>
+           </div>
           <nav className="navbar navbar-expand-lg  navbar-light">
           <div className="container-fluid">
           <a className="navbar-brand" href="#">
